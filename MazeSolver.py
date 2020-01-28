@@ -4,6 +4,7 @@ import asyncio
 ''''
 Creating Maze solver first python app
 Author: ashapira 
+version 2
 '''
 class MazeSolver:
 
