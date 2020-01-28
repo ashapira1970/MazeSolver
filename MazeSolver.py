@@ -1,7 +1,9 @@
 from Board import Maze
 import asyncio
 
-
+''''
+Creating Maze solver first python app
+'''
 class MazeSolver:
 
     def __init__(self, maze: Maze, start_point: tuple, end_point: tuple):
