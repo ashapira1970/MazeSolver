@@ -3,6 +3,7 @@ import asyncio
 
 ''''
 Creating Maze solver first python app
+Author: ashapira 
 '''
 class MazeSolver:
 
