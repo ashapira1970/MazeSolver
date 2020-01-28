@@ -14,10 +14,18 @@ class MazeSolver:
         self._startPoint = start_point
         self._endPoint = end_point
 
+    '''
+    @param self:
+    '''
     async def ResolveMaze(self):
         await self.NextSteps(self._startPoint, 0)
         print(self.traversed_places[self._endPoint])
 
+    '''
+    @:param self
+    @:param location: the current location in maze 
+    @return: step_number: current step number 
+    '''
     async def NextSteps(self, location: tuple, step_number: int):
         if self._maze.getPlaceLocation(location) != 0:
             return
