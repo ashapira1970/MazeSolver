@@ -15,6 +15,7 @@ class MazeSolver:
         self._endPoint = end_point
 
     '''
+    Main resolve method 
     @param self:
     '''
     async def ResolveMaze(self):
